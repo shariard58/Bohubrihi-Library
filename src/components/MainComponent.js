@@ -1,16 +1,17 @@
 import React from 'react';
 import Header from './header/Header';
-import Body from './body/Body';
 import Footer from './footer/Footer';
+import Body from './body/Body'
 
 
 const Maincomponent = () => {
     return
     (
         <div>
-            <Header />
-            <Body />
-            <Footer />
+
+            <h3>Hello World </h3>
+
+
         </div>
     );
 }
