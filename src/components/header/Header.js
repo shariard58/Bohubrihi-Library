@@ -2,18 +2,15 @@ import React from 'react';
 import Navigation from './Navigation';
 
 
-
 const Header = () => {
-    return
-    (
+
+    return (
         <div>
-
-            <p> Shariar Mahmud </p>
-
+            <Navigation />
         </div>
-    );
-}
+    )
 
+}
 
 export default Header;
 

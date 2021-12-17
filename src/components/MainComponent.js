@@ -1,20 +1,21 @@
-import React from 'react';
-import Header from './header/Header';
-import Footer from './footer/Footer';
-import Body from './body/Body'
+import react from "react"
+import Header from "./header/Header";
+import Footer from "./footer/Footer";
 
 
-const Maincomponent = () => {
-    return
-    (
+
+const MainComponent = () => {
+
+    return (
         <div>
 
-            <h3>Hello World </h3>
-
+            <Header />
 
         </div>
-    );
+    )
+
+
+
 }
 
-
-export default Maincomponent;
+export default MainComponent

@@ -12,7 +12,11 @@ const Navigation = () => {
         <div>
             <Navbar dark color="dark">
 
-                <NavbarBrand href='/'> Bohubrihi </NavbarBrand>
+                <div className="container">
+                    <NavbarBrand href='/'> Bohubrihi Restaurant  </NavbarBrand>
+
+                </div>
+
 
             </Navbar>
         </div>
