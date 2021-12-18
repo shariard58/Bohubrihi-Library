@@ -1,4 +1,16 @@
-import react from "react";
+import React from "react";
+import image from "../../images"
+import {
+
+    Card,
+    CardBody,
+    CardImg,
+    CardTitle,
+    CardImgOverlay
+} from "reactstrap";
+
+
+
 
 
 const Menuitem = props => {
@@ -8,6 +20,24 @@ const Menuitem = props => {
 
         <div>
 
+
+            <Card>
+
+                <CardBody>
+
+                    <CardImg width="50%" alt={props.dish.name} />
+
+
+
+
+                    <CardImgOverlay>
+
+                        {/* <CardTitle>{props.dish.name}</CardTitle> */}
+
+                    </CardImgOverlay>
+                </CardBody>
+
+            </Card>
 
         </div>
 
