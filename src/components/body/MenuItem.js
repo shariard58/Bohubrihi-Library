@@ -1,5 +1,8 @@
 import React from "react";
-import image from "../../images"
+
+
+
+
 import {
 
     Card,
@@ -15,6 +18,8 @@ import {
 
 const Menuitem = props => {
 
+    console.log('Hello');
+
     console.log(props);
     return (
 
@@ -25,14 +30,16 @@ const Menuitem = props => {
 
                 <CardBody>
 
-                    <CardImg width="50%" alt={props.dish.name} />
+                    <CardImg width="50%" alt={props.dish.name} src={props.dish.image}/>
+
+                   
 
 
 
 
                     <CardImgOverlay>
 
-                        {/* <CardTitle>{props.dish.name}</CardTitle> */}
+                        <CardTitle>{props.dish.name}</CardTitle>
 
                     </CardImgOverlay>
                 </CardBody>
